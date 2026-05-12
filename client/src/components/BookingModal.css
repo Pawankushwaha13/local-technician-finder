@@ -1,0 +1,122 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+}
+
+.modal-content {
+  background: var(--white);
+  padding: 3rem;
+  border-radius: var(--radius-lg);
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  box-shadow: var(--shadow-lg);
+}
+
+.modal-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+
+.modal-close:hover {
+  color: var(--text-main);
+}
+
+.modal-step h2 {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.slots-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.slot-btn {
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.slot-btn:hover {
+  border-color: var(--primary);
+  background: var(--bg-light);
+}
+
+.slot-btn.active {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+
+.next-btn {
+  width: 100%;
+  padding: 1rem;
+}
+
+.booking-summary {
+  background: var(--bg-light);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+}
+
+.booking-summary p {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-step textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  min-height: 100px;
+  margin-top: 0.5rem;
+  font-family: inherit;
+}
+
+.modal-actions {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.success-step {
+  text-align: center;
+}
+
+.success-icon {
+  color: #059669;
+  margin-bottom: 1.5rem;
+}
+
+.success-step p {
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
