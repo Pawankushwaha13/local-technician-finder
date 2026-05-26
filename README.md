@@ -2,7 +2,7 @@
 
 TechFinder is a high-end, full-stack MERN application designed to connect skilled Indian technicians with customers in need of reliable repair services. From electrical fixes in Lucknow to plumbing in Patna, TechFinder bridges the gap with a premium, user-centric experience.
 
-![Dashboard Preview](client/public/images/user_dash_bg.png)
+PROJECT LIVE DEMO - https://local-technician-finder-pi.vercel.app/
 
 ## 🌟 Key Features
 
